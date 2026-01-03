@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing import image
 import random as ra
 
 # Load model ONCE
-MODEL_PATH = r"C:\Users\HP\Downloads\medi\MediScannn\ML-API\eye_disease\best_eye_model.h5"
+MODEL_PATH = "C:\\Users\\HP\\Downloads\\medi\\MediScannn\\ML-API\\eye_disease\\best_eye_model.h5"
 model = load_model(MODEL_PATH)
 
 # Class names (must match training folders order)
